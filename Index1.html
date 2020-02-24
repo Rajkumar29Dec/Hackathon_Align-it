@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+    <div id="infotabs">
+        <h1>GameName</h1>
+        
+    </div>
+    <a href="#popup1" class="button" id="a1" style="visibility: hidden;">Check Your Score</a>
+<audio id="audio" src="click.mp3"></audio>
+    <table>
+        <tr>
+            <td>
+                <img src="" class="row1" id="myimg" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="./4x4/4x4 north-west.png" class="row1" id="13" onclick="rotate1(this.id)">
+            </td>
+            <td>
+                <img src="./4x4/4x4 north-south.png" class="row1" id="12" onclick="rotate1(this.id)">
+            </td>
+            <td>
+                <img src="./4x4/4x4 north-east.png" class="row1" id="11" onclick="rotate1(this.id)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="" class="row1" id="5" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="./4x4/4x4 south-west.png" class="row1" id="10" onclick="rotate1(this.id)">
+            </td>
+            <td>
+                <img src="./4x4/4x4 north-east.png" class="row1" id="9" onclick="rotate1(this.id)">
+            </td>
+            <td>
+                <img src="./4x4/4x4 west-east.png" class="row1" id="8" onclick="rotate1(this.id)">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                <img src="./4x4/4x4 north-west.png" class="row1" id="7" onclick="rotate1(this.id)">
+            </td>
+            <td>
+                <img src="./4x4/4x4 west-east.png " class="row1" id="6" onclick="rotate1(this.id)">
+            </td>
+            <td>
+                <img src="./4x4/4x4 north-east.png" class="row1" id="53" onclick="rotate1(this.id)">
+            </td>
+            <td>
+                <img src="./4x4/4x4 west-east.png " class="row1" id="4" onclick="rotate1(this.id)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./4x4/4x4 west-east.png" class="row1" id="3" onclick="rotate1(this.id)">
+            </td>
+            <td>
+                <img src="" class="row1" id="3" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="./4x4/4x4 south east.png" class="row1" id="2" onclick="rotate1(this.id)">
+            </td>
+            <td>
+                <img src="./4x4/4x4 south-west.png" class="row1" id="1" onclick="rotate1(this.id)">
+            </td>
+        </tr>
+    </table>
+   
+    <div class="start">
+        <img src="./start.png" alt="Start" id="start">
+    </div>
+    <img src="./finish.png" alt="Start" id="end">
+     <div id="popup1" class="overlay">
+         <div class="popup">
+             <h1>Congrats Buddy!</h1>
+             <h1>Your Score</h1>
+             <h1 id="sc">0</h1>
+             <a class="close" href="#">&times;</a>
+             <div class="content">
+                 <!-- <img src="./congrats_final.png" alt="player"> -->
+             </div>
+         </div>
+     </div>
+</body>
+
+</html>

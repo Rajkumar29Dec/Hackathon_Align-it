@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="infotabs">
+        <h1>GameName</h1>
+    </div>
+    <table> // creating a matrix
+
+        <tr>
+            <td>
+                <img src="image.png" class="row1" id="myimg" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="image.png" class="row1" id="myimg1" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="./5x5/5x5 north-east.png" class="row1" id="1" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 north-west.png" class="row1" id="2" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="image.png" class="row1" id="myimg2" style="visibility: hidden;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="" class="row1" id="myimg" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="./5x5/5x5 south-west.png" class="row1" id="3" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 north-west.png" class="row1" id="4" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 south east.png" class="row1" id="5" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 south-west.png" class="row1" id="6" onclick="rotate3(this.id)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./3x3/3x3 west-east.png " class="row1" " style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="./5x5/5x5 west-east.png" class="row1" id="7" onclick="rotate3(this.id)">
+            </td>
+
+            <td>
+                <img src="./5x5/5x5 north-east.png" class="row1" id="8" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 north-south.png" class="row1" id="9" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 south-west.png" class="row1" id="10" onclick="rotate3(this.id)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./5x5/5x5 north-west.png" class="row1" id="11" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 north-east.png" class="row1" id="12" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 north-west.png" class="row1" id="13" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 west-east.png" class="row1" id="14" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="./5x5/5x5 north-west.png" class="row1" id="15" onclick="rotate3(this.id)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./5x5/5x5 west-east.png" class="row1" id="16" onclick="rotate3(this.id)">
+            </td>
+            <td>
+                <img src="" class="row1" id="myimg1" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="" class="row1" id="myimg2" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="" class="row1" id="myimg2" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="./5x5/5x5 west-east.png" class="row1" id="17" onclick="rotate3(this.id)">
+            </td>
+        </tr>
+    </table>
+    <h1 id="Win1"></h1>
+    
+    
+    <audio id="audio" src="click.mp3"></audio>
+</body>
+
+</html>

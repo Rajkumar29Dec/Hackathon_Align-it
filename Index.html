@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+    <div id="infotabs">
+        
+    </div>
+    <h1 id="Win1"></h1>
+     <audio id="audio" src="click.mp3"></audio>
+    <table>
+        <tr>
+            <td>
+                <img src="image.png" class="row1" id="myimg"  style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="image.png" class="row1" id="myimg1" style="visibility: hidden;">
+            </td>
+            <td>
+                <img src="image.png" class="row1" id="myimg2" style="visibility: hidden;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src=".//3x3/3x3 north-west.png" class="row1" id="5" onclick="rotate(this.id)">
+            </td>
+            <td>
+                <img src="./3x3/3x3 north-south.png" class="row1" id="4" onclick="rotate(this.id)">
+            </td>
+            <td>
+                <img src=".//3x3/3x3 north-west.png" class="row1" id="3" onclick="rotate(this.id)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./3x3/3x3 west-east.png " class="row1" id="2" onclick="rotate(this.id)">
+            </td>
+            <td>
+            </td>
+            <td>
+                <img src="./3x3/3x3 west-east.png "class="row1" id="1" onclick="rotate(this.id)">
+            </td>
+        </tr>
+    </table>
+    <div class="start">
+    <img src="./start.png" alt="Start" id="start">
+    </div>
+    <img src="./finish.png" alt="Start" id="end">
+    
+    
+</body>
+
+</html>
